@@ -1,14 +1,67 @@
 const farmAnimals = 'cow horse sheep pig chicken';
+const animalSound ={
+  moo: 'cow',
+  neigh: 'horse',
+  baa:'sheep',
+  oink: 'pig',
+  cluck: 'chicken'}
+const {moo ,neigh,baa,oink,cluck} =animalSound;
+console.log(animalSound)
+
+
+
+const traditionalAnimalNames ={
+  bessie:'cow',
+   dolly:"sheep",
+    babe:'pig',
+      little:'chicken',}
+const {bessie,dolly,little,babe}= traditionalAnimalNames
+console.log(traditionalAnimalNames)
+
+
+
+
+const traditionalAnimalColors ={
+  pink :'pig',
+  blackAndWhite:'cow',
+  black:'sheep'}
+const {pink,blackAndWhite,black}= traditionalAnimalColors
+console.log(traditionalAnimalColors)
+
+
+
+
 
 const colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'];
+const [red, orange, yellow, green, blue, indigo, violet] = colors;
+console.log(colors)
+
+
+
+
+ const sixColors ={
+r:red,
+o:orange,
+y:yellow,
+g:green,
+b:blue,
+indg:indigo,
+v:violet,}
+ const{r,o,y,g,b,indg,v} = sixColors;
+ console.log(colors)
+
+
 
 const muppet = {
   muppetName: 'Miss Piggy',
   color: 'pink',
   song: 'Never Before, Never Again',
   job: 'Cast member of The Muppet Show',
-  partner: 'Kermit'
-};
+  partner: 'Kermit'};
+const{muppetName,color,song,job,partner} =muppet
+console.log(muppet);
+
+
 
 const nestedMuppet = {
   nestedName: 'Kermit',
@@ -21,10 +74,17 @@ const nestedMuppet = {
       song4: 'I Hope That Something Better Comes Along',
     },
   },
-  nestedJob: 'Host of The Muppet Show',
-  nestedPartner: 'Miss Piggy'
-};
+  nestedJobJob: 'Host of The Muppet Show',
+  nestedPartner: 'Miss Piggy'};
+const config ={
+  song2:'Moving Right Along',
+ song4:'I Hope That Something Better Comes Along',
+ nestedJob : 'Host of The Muppet Show',
+ nestedPartner: 'Miss Piggy',
 
+}
+const {song2, song4, nestedJob ,nestedPartner}=config
+console.log(config);
 // Strings
 
 // 1. Use destructuring to assign appropriate variables based on the sounds animals make.
